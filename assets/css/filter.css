@@ -1,0 +1,86 @@
+.filter-div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.filter-div .left-div{
+    display: flex;
+    column-gap: 15px;
+
+}
+
+.filter-div .right-div{
+    display: flex;
+    /* column-gap: 15px; */
+}
+.date-range{
+    padding:8px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    background: rgba(62, 176, 117, 0.10);
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+.choose{
+    padding: 8px 50px 8px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    background: rgba(62, 176, 117, 0.10);  
+}
+
+.select-div{
+    display: flex;
+    height: 40px;
+}
+
+.dropdown-type{
+    background: linear-gradient(180deg, #3eb075 0%, #69bf70 100%);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+.search-input:focus{
+    box-shadow: none;
+    background: rgba(62, 176, 117, 0.10);  
+}
+
+.dropdown-type:focus{
+    box-shadow: none;
+}
+
+
+.search-input{
+    background:rgba(62, 176, 117, 0.10);
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+}
+
+.right-div{
+border-radius: 10px;
+background: rgba(10, 10, 15, 0.07);
+
+}
+.filter-btn{
+    border-radius: 10px;
+    }
+    .filter-btn:hover{
+        background:rgba(62, 176, 117, 0.10);
+    }
+    
+
+.filter-right-div-btn-active{
+border-radius: 10px;
+background: linear-gradient(180deg, #3eb075 0%, #69bf70 100%);
+color: white;
+}
+.filter-right-div-btn-active:hover{
+    color: white;
+    background: linear-gradient(180deg, #3eb075 0%, #69bf70 100%);
+}
+
