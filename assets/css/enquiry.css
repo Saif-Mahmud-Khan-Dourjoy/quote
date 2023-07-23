@@ -1,0 +1,91 @@
+.enquiry {
+  margin-top: 30px;
+}
+.enquiry-header-div {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.enquiry .table-header {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.enquiry .table-header div:not(:first-child),
+.enquiry .table-header div:not(:nth-child(2)),
+.enquiry .table-header div:not(:nth-child(4)) {
+  width: 10%;
+  font-size: 14px;
+  font-weight: 400;
+}
+.enquiry .table-header div:nth-child(2) {
+  width: 18%;
+  font-size: 14px;
+  font-weight: 400;
+}
+.enquiry .table-header div:nth-child(4) {
+  width: 15%;
+  font-size: 14px;
+  font-weight: 400;
+}
+.enquiry .table-header div:first-child {
+  width: 27%;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.enquiry .table-value div:not(:first-child),
+.enquiry .table-value div:not(:nth-child(2)),
+.enquiry .table-value div:not(:nth-child(4)) {
+  width: 10%;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.enquiry .table-value div:nth-child(2) {
+  width: 18%;
+  font-size: 14px;
+  font-weight: 400;
+}
+.enquiry .table-value div:nth-child(4) {
+  width: 15%;
+  font-size: 14px;
+  font-weight: 400;
+}
+.enquiry .table-value div:first-child {
+  width: 27%;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.enquiry .table-value {
+  display: flex;
+  align-items: center;
+  padding: 15px 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.enquiry .table-value:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.enquiry .table-value .name {
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+}
+
+.enquiry .table-value .action {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  justify-content: center;
+}
+
+.table-single-value button {
+  font-size: 12px;
+}
+
+div.table-value.hidden-common {
+  padding: 20px 5px;
+}

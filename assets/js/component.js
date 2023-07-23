@@ -1,6 +1,6 @@
-class MyHeader extends HTMLElement{
-    connectedCallback(){
-        this.innerHTML=`
+class MyHeader extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
         <div class="header-div">
           <div class="left-div">
             <div class="create-own-quote header-common-style">
@@ -31,17 +31,16 @@ class MyHeader extends HTMLElement{
             </div>
             <div class="time-div">13.12.13</div>
           </div>
-        </div>`
-    }
+        </div>`;
+  }
 }
 
-customElements.define('my-header',MyHeader)
+customElements.define("my-header", MyHeader);
 
-
-class SideBar extends HTMLElement{
-    connectedCallback(){
-        this.innerHTML=`
-        <div class="sidebar" style="background-color: black">
+class SideBar extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+        <div class="sidebar">
         <div class="logo">
           <img class="logoImg" src="./assets/image/image_logo.svg" alt="" />
         </div>
@@ -188,44 +187,48 @@ class SideBar extends HTMLElement{
           <h4>Logout</h4>
         </div>
       </div>
-        `
-    }
+        `;
+  }
 }
-customElements.define('my-side-bar',SideBar)
+customElements.define("my-side-bar", SideBar);
 
-class Filter extends HTMLElement{
-    connectedCallback(){
-        this.innerHTML=`
+class Filter extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
         <div class="filter-div">
           <div class="left-div">
             <div class="date-range">
-              <span>Date Range</span>
-              <i class="fa-regular fa-calendar"></i>
+            <input type="text" name="daterange" class="dateRange" placeholder="Date Range" >
+            <i class="fa-regular fa-calendar select-date-range"></i>
             </div>
             <div class="choose">
               <span>choose a make...</span>
             </div>
             <div class="search">
               <div class="select-div">
-                <button
-                  type="button"
-                  class="btn dropdown-toggle text-light dropdown-type"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Car type
-                </button>
+              <div class="select-with-icon">
+              <select class="form-select type-select-filter" aria-label="Default select example">
+              <option selected>Car Type</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              
+              
+            </select>
+            
+            </div>
                 <div class="form-group">
+                 
                   <input
-                    type="email"
+                    type="text"
                     class="form-control search-input"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
+                    id="exampleInputsearch1"
+                    aria-describedby="searchHelp"
                     placeholder="search"
                   />
                 </div>
               </div>
-              <div class="search-div"></div>
+              
             </div>
           </div>
           <div class="right-div">
@@ -238,8 +241,8 @@ class Filter extends HTMLElement{
             <button class="btn filter-btn">Quote</button>
           </div>
         </div>
-        `
-    }
+        `;
+  }
 }
 
-customElements.define('my-filter',Filter)
+customElements.define("my-filter", Filter);

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 .chart-header-div{
   font-size: 20px;
@@ -61,10 +62,11 @@
 .bar-chart-div {
   width: 55%;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  height: 350px;
+  
 }
 .chart-statistic {
   margin-top: 30px;
+  width: 100%;
 }
 .chart-header-div {
   color: rgba(10, 10, 15, 0.7);
@@ -72,7 +74,15 @@
   font-style: normal;
   font-weight: 700;
 }
-
+#myDiv-parent{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 #myDiv {
   height: 350px;
+  /* max-width: 100% !important; */
+  overflow: hidden !important;
+  width: 500px;
+  
 }

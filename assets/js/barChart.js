@@ -16,7 +16,7 @@ var trace1 = {
     name: 'Job Value',
     marker: {
       color: 'rgb(0,128,0)',
-      opacity: 0.5
+      opacity: 0.5,
     }
   };
   
@@ -45,5 +45,16 @@ var trace1 = {
     bargroupgap: 0.1
   };
   
-  Plotly.newPlot('myDiv', data, layout);
+  // Plotly.newPlot('myDiv', data, layout);
   
+  // Calculate the width of the chart based on the parent div's width
+// const parentDiv = document.querySelector('.bar-chart-div');
+// const parentWidth = parseFloat(window.getComputedStyle(parentDiv).width);
+// const chartWidth = parentWidth * 0.70;
+ // You can adjust the scaling factor as needed (e.g., 0.9 means 90% of the parent width)
+
+// Set the width of the chart container
+// document.getElementById('myDiv').style.width = chartWidth + 'px';
+
+// Plot the chart with the updated width
+Plotly.newPlot('myDiv', data, layout);

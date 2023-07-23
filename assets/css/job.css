@@ -1,0 +1,114 @@
+.job{
+    margin-top: 30px;
+}
+.job-header-div{
+    font-size: 20px;
+font-style: normal;
+font-weight: 600;
+}
+.job .table-header{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.job .table-header div:nth-child(1){
+    width: 30%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.job .table-header div:nth-child(2){
+    width: 20%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.job .table-header div:nth-child(3){
+    width: 10%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.job .table-header div:nth-child(4){
+    width: 15%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.job .table-header div:nth-child(5){
+    width: 15%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.job .table-header div:nth-child(6){
+    width: 10%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.job .table-value div:nth-child(1){
+    width: 30%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.job .table-value div:nth-child(2){
+    width: 20%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.job .table-value div:nth-child(3){
+    width: 10%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.job .table-value div:nth-child(4){
+    width: 15%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.job .table-value div:nth-child(5){
+    width: 15%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.job .table-value div:nth-child(6){
+    width: 10%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.job .table-value{
+    display: flex;
+    align-items: center;
+    padding: 15px 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.job .table-value:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.job .table-value .name{
+display: flex;
+align-items: center;
+column-gap: 2px;
+}
+
+.job .table-value .action{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    justify-content: center;
+    }
+
+.table-single-value button{
+    font-size: 12px;
+}
+
+.job-form-select{
+    border: 1px solid green;
+    background-color: rgba(62, 176, 117, 0.10);
+}
+.job-form-select:focus{
+    box-shadow: none;
+}

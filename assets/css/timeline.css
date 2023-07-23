@@ -23,11 +23,9 @@
 .timeline-count{
     display: flex;
    justify-content: center;
+   flex-wrap: wrap;
 }
-.timeline-count{
-    display: flex;
-    /* justify-content: space-between; */
-}
+
 .timeline-day-common-style{
     display: flex;
     flex-direction: column;
@@ -35,6 +33,7 @@
     margin-top: 20px;
     border-left: 1px solid rgba(10, 10, 15, 0.30);
     width: 160px;
+    flex-wrap: wrap;
 
 }
 .timeline-day-common-style:last-child{
